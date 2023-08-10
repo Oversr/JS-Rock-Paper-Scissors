@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: blue;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+button {
+    margin: 1rem;
+    border: none;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(116, 116, 116);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
